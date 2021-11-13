@@ -1,6 +1,4 @@
-/* Using variables in css */
-/* --main-color: black; */
-/* color: var(--main-color); */
+/* Variables */
 :root {
   --media-object-width: 125px;
   --button-blue: #3882F6;
@@ -8,7 +6,10 @@
 
 * {
   font-family: calibri, arial;
-  /* border: solid red 2px; */
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /* Title Section */
@@ -20,18 +21,15 @@
   color: #F9FAF8;
   margin: 0px;
 }
-
 .header ul {
   list-style: none;
   display: flex;
   gap: 20px;
 }
-
 .header a {
   text-decoration: none;
   color: #E5E7EB;
 }
-
 .title-section {
   display: flex;
   justify-content: center;
@@ -39,7 +37,6 @@
   gap: 50px;
   padding: 50px 0px;
 }
-
 .title-container {
   display: flex;
   flex-direction: column;
@@ -47,7 +44,6 @@
   align-items: flex-start;
   width: 350px;
 }
-
 .title-section h1 {
   font-size: 48px;
   font-weight: bolder;
@@ -55,7 +51,6 @@
   line-height: 0.9;
   margin: 0px;
 }
-
 .title-section p {
   font-size: 18px;
   line-height: 0.9;
@@ -63,7 +58,6 @@
   margin: 0px;
   padding: 10px 0px;
 }
-
 .title-section button {
   background-color: #3882F6;
   color: #E5E7EB;
@@ -74,38 +68,31 @@
 }
 
 /* Info Section */
-.info-section *{
-  /* border: solid red 2px; */
-}
-
 .info-section {
   display: flex;
   flex-direction: column;
 }
-
 .info-section h2 {
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
   align-self: center;
 }
-
 .media-object-row {
   display: flex;
   justify-content: space-between;
   margin: 0px 150px 100px 200px;
 }
-
 .media-object {
   width: var(--media-object-width);
   text-align: center;
 }
-
 .media-object img {
   width: var(--media-object-width);
   border-radius: 15px;
   border: solid #3882F6 3px;
 }
+
 /* Quote Section */
 .quote-section {
   background-color: #E5E7EB;
@@ -122,7 +109,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .quote {
   font-style: italic;
   font-size: 36px;
@@ -131,7 +117,6 @@
   line-height: 1;
   margin: 0;
 }
-
 .quote-author {
   align-self: flex-end;
   margin: 0;
@@ -141,43 +126,32 @@
 
 /* Call to action */
 .action-section {
-  /* background-color: var(--button-blue); */
   background-color: white;
   color: #E5E7EB;
   height: 250px;
-  /* border: solid blue 2px; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .action-container {
   background-color: var(--button-blue);
-  /* border: solid green 2px; */
   padding: 40px 0px;
   padding-left: 50px;
   border-radius: 8px;
   width: 700px;
 }
-
 .call-to-action {
   background-color: var(--button-blue);
-  /* border: solid cyan 2px; */
   display: flex;
   align-items: center;
-  /* gap: 50px; */
 }
-
 .action-text {
   background-color: var(--button-blue);
-  /* padding: 50px; */
   margin: 0 20px;
 }
 .action-text h3, .action-text p {
-  /* border: solid yellow 2px; */
   margin: 0;
 }
-
 .call-to-action button {
   border: solid #E5E7EB 2px;
   border-radius: 4px;
@@ -186,9 +160,9 @@
   height: 30px;
   width: 100px;
   align-self: center;
-  /* margin: 20px 50px; */
   margin-left: 75px;
 }
+
 /* Footer */
 .footer {
   background-color: #1F2937;
