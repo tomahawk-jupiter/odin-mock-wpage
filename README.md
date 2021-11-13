@@ -10,7 +10,7 @@ HTML, CSS, Flexbox, Markdown (For these notes).
 
 The picture shows a header, four main sections containing multiple elements each and a footer.
 
-I will focus on one section at a time, doing the html then the css, I might need to add extra html containers while doing the layout.
+I will focus on one section at a time, doing the html then the css. (I added extra html containers while doing the layout).
 
 I will use flexbox to achieve the desired layout then add margin and padding to touch it up.
 
