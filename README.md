@@ -8,13 +8,13 @@ HTML, CSS, Flexbox, Markdown (For these notes).
 
 ### The Plan
 
-The picture shows three main sections containing multiple elements each.
+The picture shows a header, four main sections containing multiple elements each and a footer.
 
-I will focus on one section at a time, doing the html then the css.
+I will focus on one section at a time, doing the html then the css, I might need to add extra html containers while doing the layout.
 
 I will use flexbox to achieve the desired layout then add margin and padding to touch it up.
 
-I will use flex-direction: column; to then stack these sections together. (Actually It will stack by default).
+I will use flex-direction: column; to then stack these sections together. (Actually It will stack by default so this wasn't needed).
 
 I have been given some links to use for finding free pictures to use:
 [pexels](https://www.pexels.com/), [pixabay](https://pixabay.com/), [Unsplash](https://unsplash.com/).
