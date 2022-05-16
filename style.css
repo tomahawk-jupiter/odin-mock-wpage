@@ -1,7 +1,7 @@
 /* Variables */
 :root {
   --media-object-width: 125px;
-  --button-blue: #3882F6;
+  --button-blue: #3882f6;
 }
 
 * {
@@ -17,8 +17,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  background-color: #1F2937;
-  color: #F9FAF8;
+  background-color: #1f2937;
+  color: #f9faf8;
   margin: 0px;
 }
 .header ul {
@@ -28,12 +28,12 @@ body {
 }
 .header a {
   text-decoration: none;
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
 .title-section {
   display: flex;
   justify-content: center;
-  background-color: #1F2937;
+  background-color: #1f2937;
   gap: 50px;
   padding: 50px 0px;
 }
@@ -47,20 +47,27 @@ body {
 .title-section h1 {
   font-size: 48px;
   font-weight: bolder;
-  color: #F9FAF8;
+  color: #f9faf8;
   line-height: 0.9;
   margin: 0px;
 }
 .title-section p {
   font-size: 18px;
   line-height: 0.9;
-  color: #E5E7EB;
+  color: #e5e7eb;
   margin: 0px;
   padding: 10px 0px;
 }
 .title-section button {
-  background-color: #3882F6;
-  color: #E5E7EB;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+}
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 .title-section img {
   width: 375px;
@@ -75,7 +82,7 @@ body {
 .info-section h2 {
   font-size: 36px;
   font-weight: bolder;
-  color: #1F2937;
+  color: #1f2937;
   align-self: center;
 }
 .media-object-row {
@@ -90,19 +97,19 @@ body {
 .media-object img {
   width: var(--media-object-width);
   border-radius: 15px;
-  border: solid #3882F6 3px;
+  border: solid #3882f6 3px;
 }
 
 /* Quote Section */
 .quote-section {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .quote-block {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   width: 700px;
   margin-left: auto;
   margin-right: 150px;
@@ -112,7 +119,7 @@ body {
 .quote {
   font-style: italic;
   font-size: 36px;
-  color: #1F2937;
+  color: #1f2937;
   font-weight: 200;
   line-height: 1;
   margin: 0;
@@ -127,7 +134,7 @@ body {
 /* Call to action */
 .action-section {
   background-color: white;
-  color: #E5E7EB;
+  color: #e5e7eb;
   height: 250px;
   display: flex;
   justify-content: center;
@@ -149,14 +156,15 @@ body {
   background-color: var(--button-blue);
   margin: 0 20px;
 }
-.action-text h3, .action-text p {
+.action-text h3,
+.action-text p {
   margin: 0;
 }
 .call-to-action button {
-  border: solid #E5E7EB 2px;
+  border: solid #e5e7eb 2px;
   border-radius: 4px;
   background-color: var(--button-blue);
-  color: #E5E7EB;
+  color: #e5e7eb;
   height: 30px;
   width: 100px;
   align-self: center;
@@ -165,8 +173,8 @@ body {
 
 /* Footer */
 .footer {
-  background-color: #1F2937;
-  color: #E5E7EB;
+  background-color: #1f2937;
+  color: #e5e7eb;
   height: 75px;
   display: flex;
   justify-content: center;
