@@ -4,6 +4,8 @@ An assignment done as part of the [Odin Project Course](https://www.theodinproje
 
 In this project I will make a webpage based on a [picture example](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png). I have been given some [colors and font styles](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/colors_and_stuff.png) to help.
 
+[Live Page](https://tomahawk-jupiter.github.io/odin-mock-wpage/)
+
 ## Contents
 
 - [Skills I will practice](#skills-i-will-practice)
